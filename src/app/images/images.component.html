@@ -1,0 +1,14 @@
+<!--Get input here-->
+<div class="center-get-input">
+    <div>
+        <input *ngIf="image == null" class="input-style" type="file" (change)="processImage($event)"/>
+    </div>
+        <button *ngIf="image != null" class="button-style" mat-raised-button (click)="submit()">
+            Upload Image<mat-icon>upgrade</mat-icon>
+        </button>
+        <div>
+            
+        </div>
+</div>
+
+<!--Display content here-->
