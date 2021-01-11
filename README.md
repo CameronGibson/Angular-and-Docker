@@ -1,15 +1,9 @@
-# ImageDock
+# ImageDocker
 
-This project is intended to be a dockerized CRUD application for transacting images to and from a database. Please view the Dockerfile for image build configuration.
+This project is intended to be a simple dockerized Angular 11 application which processes images(Sprites) into a spritesheet. This spritesheet builder will be able to work with sprites of various sizes by finding the largest image and appending the difference in size with an alpha layer.
+
+This project is containerized via Docker and will be pushed to Docker Hub once completed.
 
 
-
-TODO:
-
-- Create and add a container of this image to a network. 
-
-- Add MongoDB to the container network or implement AWS Lambda which will probably require Fargate and ECS.
-
-- If AWS Lambda was not chosen, add a container of an ASP.NET image.
 
 
