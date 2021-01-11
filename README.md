@@ -1,27 +1,15 @@
 # ImageDock
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.0.
+This project is intended to be a dockerized CRUD application for transacting images to and from a database. Please view the Dockerfile for image build configuration.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+TODO:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Create and add a container of this image to a network. 
 
-## Build
+- Add MongoDB to the container network or implement AWS Lambda which will probably require Fargate and ECS.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+- If AWS Lambda was not chosen, add a container of an ASP.NET image.
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
